@@ -1,3 +1,7 @@
+@file:Suppress("UNUSED_EXPRESSION")
+
+import com.android.build.api.dsl.Packaging
+
 plugins {
     alias(libs.plugins.android.application)
 }
@@ -28,6 +32,19 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    packaging {
+        resources {
+            excludes.addAll(
+                listOf(
+                    "META-INF/DEPENDENCIES",
+                    "META-INF/LICENSE",
+                    "META-INF/LICENSE.txt",
+                    "META-INF/NOTICE",
+                    "META-INF/NOTICE.txt"
+                )
+            )
+        }
     }
 }
 
