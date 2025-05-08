@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Xi Fun Pad</string>
+    <string name="todo">TODO</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string name="size">Size</string>
+    <string name="flow">Flow</string>
+    <string name="opacity">Opacity</string>
+    <string name="brush_color">Brush Color</string>
+    <string name="bg_color">Background Color</string>
+    <string name="save_dialog_heading">Save Drawing</string>
+    <string name="save_drawing_prompt">Please enter a name for this drawing</string>
+    <string name="cancel">Cancel</string>
+</resources>
